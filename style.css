@@ -1,0 +1,288 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+h4{
+    font-size: 25px;
+    margin: 0;
+}
+
+.mission-focus{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+}
+
+.focus-text{
+    margin-top: 100px;
+    width: 50%;
+    
+}
+
+.focus-heading{
+    display: flex;
+    align-items: center;
+}
+
+.focus-heading-border{
+    width: 5px;
+    height: 120px;
+    background-color: orange;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+
+.focus-heading h1{
+    margin: 0;
+    line-height: 120%;
+    font-family: 'Yeseva One', cursive;
+}
+
+.focus-top-head{
+    color: grey;
+}
+
+.orange-color{
+    color: orangered;
+}
+
+.focus-text p{
+    margin-bottom: 40px;
+    margin-top: 30px;
+    line-height: 150%;
+}
+
+.image-rounded-back{
+    width: 50%;
+}
+
+.image-rounded-back img{
+    width: 80%;
+    float: right;
+}
+
+.btn-href{
+    background-image: linear-gradient( orange, orangered );
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    box-shadow: 1px 1px 5px lightpink;
+}
+
+.btn-href:hover{
+    box-shadow: 3px 3px 15px grey;
+    transition: 300ms;
+}
+
+.mission-goal-card{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.mission-goal-card p{
+    line-height: 140%;
+}
+
+.card-image{
+    width: 55%;
+}
+
+.mission-card{
+    width: 33.33%;
+    background-color: #ffe0e4;
+    margin-right: 3%;
+    padding: 3%;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.mission-card:hover{
+    box-shadow: 1px 1px 15px rgb(177, 164, 164);
+    transition: 300ms;
+}
+
+.vision-card{
+    width: 33.33%;
+    background-color: #e9e17a;
+    margin-right: 3%;
+    padding: 3%;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.vision-card:hover{
+    box-shadow: 1px 1px 15px rgb(165, 164, 117);
+    transition: 300ms;
+}
+
+.goal-card{
+    width: 33.33%;
+    background-color: #b5fde7;
+    padding: 3%;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.goal-card:hover{
+    box-shadow: 1px 1px 15px rgb(177, 164, 164);
+    transition: 300ms;
+}
+
+.documentation{
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position-x: left;
+    background-position-y: center;
+    display: flex;
+    padding-left: 2%;
+    padding-right: 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-left: 2%;
+    align-items: center;
+}
+
+.doc-image{
+    width: 40%;
+    margin-right: 3%;
+}
+
+.doc-image img{
+    width: 75%;
+    margin-left: 19%;
+}
+
+.doc-text{
+    width: 60%;
+}
+
+.doc-text h4{
+    font-size: 37px;
+    line-height: 130%;
+}
+
+.doc-text p{
+    text-align: justify;
+    line-height: 150%;
+    margin-bottom: 7%;
+    margin-top: 4%;
+}
+
+.community{
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-x: right;
+    background-position-y: bottom;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 8%;
+    padding-bottom: 7%;
+    margin-right: 5%;
+    align-items: center;
+}
+
+.community-image{
+    width: 40%;
+    margin-right: 3%;
+}
+
+.community-image img{
+    width: 85%;
+    margin-left: 20%;
+}
+
+.community-text{
+    width: 60%;
+}
+
+.community-text h4{
+    font-size: 37px;
+    line-height: 130%;
+}
+
+.community-text p{
+    text-align: justify;
+    line-height: 150%;
+    margin-bottom: 7%;
+    margin-top: 4%;
+}
+
+.contact{
+    padding: 5% 30%;
+}
+
+.contact h4{
+    text-align: center;
+    background-color: lightgray;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+label{
+    text-align: right;
+}
+
+input[type="text"]{
+    height: 25px;
+    width: 350px;
+    border: 1px solid lightgrey;
+    float: right;
+    padding: 3px 10px;
+    margin: 3px 0 0 10px ;
+}
+
+textarea{
+    padding: 3px 10px;
+    margin: 3px 0 0 10px ;
+    border: 1px solid lightgrey;
+}
+
+input[type="submit"],[type="reset"]{
+    background-color: dodgerblue;
+    padding: 7px 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    font-size: 17px;
+    margin: 15px 5px;
+}
+
+input:hover[type="submit"],:hover[type="reset"]{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px grey;
+    transition: 300ms;
+}
+
+footer{
+    height: 10%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer h3{
+    font-family: 'Yeseva One', cursive;
+}
