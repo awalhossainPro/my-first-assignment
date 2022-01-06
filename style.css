@@ -51,6 +51,7 @@ h4{
     margin: 0;
     line-height: 120%;
     font-family: 'Yeseva One', cursive;
+    font-weight: normal;
 }
 
 .focus-top-head{
@@ -77,7 +78,7 @@ h4{
 }
 
 .btn-href{
-    background-image: linear-gradient( orange, orangered );
+    background-image: linear-gradient( #ff7402, #ff4231 );
     padding: 10px 50px;
     border-radius: 5px;
     border: 2px solid white;
@@ -95,7 +96,7 @@ h4{
 .mission-goal-card{
     display: flex;
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 10%;    
 }
 
 .mission-goal-card p{
@@ -113,10 +114,12 @@ h4{
     padding: 3%;
     border-radius: 20px;
     border: 5px solid white;
+    text-align: center;
+    box-shadow: 1px 1px 7px rgb(177, 164, 164);
 }
 
 .mission-card:hover{
-    box-shadow: 1px 1px 15px rgb(177, 164, 164);
+    box-shadow: 1px 1px 20px rgb(177, 164, 164);
     transition: 300ms;
 }
 
@@ -127,10 +130,12 @@ h4{
     padding: 3%;
     border-radius: 20px;
     border: 5px solid white;
+    text-align: center;
+    box-shadow: 1px 1px 7px rgb(165, 164, 117);
 }
 
 .vision-card:hover{
-    box-shadow: 1px 1px 15px rgb(165, 164, 117);
+    box-shadow: 1px 1px 20px rgb(165, 164, 117);
     transition: 300ms;
 }
 
@@ -140,10 +145,12 @@ h4{
     padding: 3%;
     border-radius: 20px;
     border: 5px solid white;
+    text-align: center;
+    box-shadow: 1px 1px 7px rgb(177, 164, 164);
 }
 
 .goal-card:hover{
-    box-shadow: 1px 1px 15px rgb(177, 164, 164);
+    box-shadow: 1px 1px 20px rgb(177, 164, 164);
     transition: 300ms;
 }
 
@@ -197,7 +204,7 @@ h4{
     display: flex;
     padding-left: 10%;
     padding-right: 5%;
-    padding-top: 8%;
+    padding-top: 2%;
     padding-bottom: 7%;
     margin-right: 5%;
     align-items: center;
@@ -231,13 +238,23 @@ h4{
 
 .contact{
     padding: 5% 30%;
+    background-image: url("images/shapes/shape-6.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    align-items: center;
 }
 
 .contact h4{
     text-align: center;
-    background-color: lightgray;
+    background-color: orangered;
     padding: 5px 0;
     margin: 10px 0;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+    font-weight: 100;
 }
 
 label{
@@ -254,19 +271,22 @@ input[type="text"]{
 }
 
 textarea{
-    padding: 3px 10px;
+    padding: 3px 9px;
     margin: 3px 0 0 10px ;
     border: 1px solid lightgrey;
+    font-family: sans-serif;
 }
 
 input[type="submit"],[type="reset"]{
-    background-color: dodgerblue;
-    padding: 7px 50px;
+    background-color: orange;
+    padding: 6px 50px;
     border: 2px solid white;
     border-radius: 30px;
-    color: white;
-    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
     margin: 15px 5px;
+    box-shadow: 3px 3px 7px black;
 }
 
 input:hover[type="submit"],:hover[type="reset"]{
